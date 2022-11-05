@@ -4,6 +4,7 @@ async function getMovieDetailsById() {
     const todos = await resp.json();
   
     console.log(todos);
+    console.log(resp);
   }
   
   getMovieDetailsById();
